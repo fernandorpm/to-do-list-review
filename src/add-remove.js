@@ -38,6 +38,7 @@ function DisplayTask() {
     const element = taskArray[idx];
     const elementHTML = document.createElement('div');
     elementHTML.classList.add('list-item');
+    elementHTML.classList.add('flex');
     elementHTML.setAttribute('description', element.description);
     elementHTML.setAttribute('completed', element.completed);
     elementHTML.setAttribute('index', element.index);

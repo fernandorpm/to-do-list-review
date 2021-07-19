@@ -21,12 +21,15 @@ button {
   margin: 100px auto;
 }
 
-/* Title */
-
-.list-title {
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Title */
+
+.list-title {
   padding: 20px 10px;
   border-bottom: 1px solid lightgray;
 }
@@ -67,9 +70,6 @@ button:hover {
 }
 
 .list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 10px;
   font-size: 15px;
   padding-left: 10px;

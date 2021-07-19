@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+button {
+  padding: 20px;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+}
+
+.list-container {
+  background: white;
+  box-shadow: 0 2px 5px lightgray;
+  width: 500px;
+  margin: 100px auto;
+}
+
+/* Title */
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.list-title button {
+  background: white;
+  padding: 0 5px;
+}
+
+/* Add */
+
+.list-add {
+  border-bottom: 1px solid lightgray;
+}
+
+input {
+  width: calc(100% - 62px);
+  padding: 20px 10px;
+  border: 0;
+  margin: 0;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+#button-add {
+  padding: 20px 10px;
+  background: white;
+  margin-left: -2px;
+}
+
+/* Content */
+
+.list-content {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: move;
+}
+
+.list-item div {
+  display: flex;
+  gap: 10px;
+}
+
+.list-item div,
+.list-item p,
+.list-item span {
+  cursor: move;
+}
+
+.list-item > div:last-child {
+  gap: 0;
+}
+
+.list-item input {
+  width: auto;
+}
+
+.list-item p {
+  font-size: 14px;
+}
+
+.list-item span {
+  padding: 15px 20px;
+  font-size: 16px;
+  background: white;
+}
+
+/* Clear */
+
+#button-clear {
+  width: 100%;
+}
